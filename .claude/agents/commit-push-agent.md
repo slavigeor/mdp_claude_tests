@@ -18,5 +18,5 @@ tools: Bash, Read
 ## Rules
 
 - Never force push
-- Always show changes and ask for confirmation before pushing
-- Add Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com> to commit messages
+- Do not ask for confirmation — just commit and push
+- Do NOT include Co-Authored-By in commit messages
