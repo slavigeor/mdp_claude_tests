@@ -59,3 +59,5 @@ job_app_tool/
 - CV format: **PDF** (use `pypdf` for reading)
 - No API key needed — uses `claude` CLI via subprocess
 - Code style: OOP (classes), concise comments, Black formatting
+
+Test
