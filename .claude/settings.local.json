@@ -9,5 +9,8 @@
       "Bash(git push:*)",
       "Bash(git commit:*)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": [
+    "fetch"
+  ]
 }
