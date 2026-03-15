@@ -5,6 +5,8 @@
       "Bash(claude mcp:*)",
       "Bash(mkdir:*)",
       "Skill(commit-and-push)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git push:*)"
     ]
-  }}
+  }
+}
