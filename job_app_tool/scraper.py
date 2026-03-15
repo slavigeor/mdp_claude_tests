@@ -41,6 +41,12 @@ class JobScraper:
                 self.text = element.get_text(separator="\n", strip=True)
                 return self.text
 
+        # Try og:description meta tag (common on JS-rendered sites like Workday)
+        meta = soup.find("meta", attrs={"property": "og:description"})
+        if meta and meta.get("content"):
+            self.text = meta["content"]
+            return self.text
+
         # Fallback: grab the largest text block in <main> or <body>
         container = soup.find("main") or soup.find("body")
         if container:
