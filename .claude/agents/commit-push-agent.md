@@ -20,3 +20,4 @@ tools: Bash, Read
 - Never force push
 - Do not ask for confirmation — just commit and push
 - Do NOT include Co-Authored-By in commit messages
+- If there are untracked files, ask the user explicitly whether to include them
